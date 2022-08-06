@@ -37,19 +37,20 @@ function App() {
         <div id="right-col" className="col-lg-6">
           <div className="Maker">
             <h2>QR CODE</h2>
-            <figure>
-              <LiveQrCode value={qrText} className="LiveQrCode" />
-            </figure>
-            <h3>ENTER YOUR URL</h3>
-            <input type="URL" value={qrText} onChange={handleQrCode} />
+            <LiveQrCode value={qrText} className="LiveQrCode" />
+            <br />
+            <h3>ENTER URL</h3>
+            <input type="text" value={qrText} onChange={handleQrCode} />
             <br />
             <a
               href={qrCode}
               className="badge badge-info"
-              download={"NewQR.png"}
+              download={"NewQR.jpg"}
             >
               download
             </a>
+
+            <br />
           </div>
         </div>
       </div>
