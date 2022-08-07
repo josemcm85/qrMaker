@@ -7,4 +7,4 @@ npm i qrcode
 npm i react-qr-code
 ```
 
-![QR MAKER](/qrmaker/public/QR MAKER.jpg)
+![QR MAKER](/qrmaker/public/qrmaker.jpg)
